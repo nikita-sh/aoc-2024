@@ -1,4 +1,4 @@
-[workspace] 
+[workspace]
 members = [
     "days/*"
 ]
@@ -8,3 +8,6 @@ resolver = "2"
 name = "aoc 2024"
 version = "0.1.0"
 edition = "2021"
+
+[workspace.dependencies]
+clap = "^4.5.21"
