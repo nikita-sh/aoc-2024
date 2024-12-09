@@ -1,9 +1,10 @@
 [package]
-name = "aoc-2024-d2"
+name = "aoc-2024-d3"
 version.workspace = true
 edition.workspace = true
 
 [dependencies]
 clap = { workspace = true, features = [ "derive" ]}
+regex = { workspace = true }
 
 [dev-dependencies]
